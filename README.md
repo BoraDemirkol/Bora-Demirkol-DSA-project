@@ -4,11 +4,10 @@
 
 ## Motivation: 
 
-Accurately estimating calorie expenditure during exercise can help individuals optimize their workout plans and achieve their fitness goals. However, most fitness applications and devices use generalized calorie estimation formulas rather than personalized predictions. This project aims to develop a machine learning-based model that can provide more accurate calorie burn predictions based on different exercise types.
+When I first started working out, I struggled to understand how different exercises impacted my calorie burn. Most fitness apps and devices provided generic estimations that didn’t take my body type, age, or workout intensity into account. This often left me uncertain about which workouts were most effective for my goals.
 
-I personally work out four times a week, and when I first started training, I struggled to find the right program for myself. Most workout plans and fitness applications provide generic calorie burn estimations without considering individual factors such as weight, age, gender, or workout intensity. Because of this, I often found myself uncertain about which exercises were the most efficient for my specific goals.
+Through this project, I aim to explore a more data-driven and personalized approach to calorie burn estimation. By analyzing factors like workout duration, heart rate, body temperature, and body composition, I want to create a model that can provide more accurate calorie burn predictions. This will not only help me optimize my own workouts but also assist others in making informed decisions about their fitness routines.
 
-This project is motivated by my own experience of trying to optimize my workouts and help others personalize their exercise routines by providing data-driven calorie burn predictions. The goal is to analyze how factors such as age, weight, gender, workout duration, and exercise type influence calorie burn and build a model that can offer customized insights for users.
 ## Data Source:
 
 1. Kaggle dataset on exercise and calorie burn it includes different parameters like ages, heights, weights, exercise duration, heart rate and body temperature.
@@ -16,13 +15,26 @@ This project is motivated by my own experience of trying to optimize my workouts
 
 ## Exploratory Data Analysis (EDA):
 
-There is a linear reggression between calories and duration , heart_rate and calories also body temperature and calories. 
+Based on the initial EDA: 
+
+Workout Duration and Calories Burned show a strong positive correlation.
+
 ![image](https://github.com/user-attachments/assets/e41706ed-bbe3-4a28-8cfd-eebb3e99f44c)
+
+Heart Rate and Calories Burned also show a significant relationship, suggesting higher heart rate means more calorie burn.
+
 ![image](https://github.com/user-attachments/assets/ed20832d-84b4-4962-aa46-0457cdba0442)
+
+Body Temperature and Calories Burned may have a non-linear relationship, as extreme temperatures might indicate overheating rather than increased calorie burn.
+
 ![image](https://github.com/user-attachments/assets/55c33582-02f7-440f-9930-4b8fa7b3521f)
 
 
 ## Feature Selection & Data Preprocessing:
+
+Workout Type (Strength, Cardio, HIIT, etc.): Different types of workouts burn calories differently.
+
+BMI (Body Mass Index): Provides insight into body composition.
 
 Height and Weight: Used to calculate BMI and analyze the body composition. 
 
@@ -44,15 +56,14 @@ Once I learn the necessary machine learning techniques, I will implement them la
 
 ## Findings (Expected Outcomes):
 
-
 ## This project aims to answer the following key questions:
 
 - Which exercise type burns the most calories on average?
   
 - How do weight, age, and gender affect calorie burn?
 
-- Can we create a model predict calorie burn according to data
-  
+- Can we develop a model that accurately predicts calorie burn based on workout data?
+   
 ## Limitations:
 
 - Measuring actual calorie burn requires laboratory-grade equipment.
