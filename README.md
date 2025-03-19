@@ -16,9 +16,10 @@ This project is motivated by my own experience of trying to optimize my workouts
 
 ## Exploratory Data Analysis (EDA):
 
-Average calorie burn for different exercise types
-The impact of age, weight, and gender on calorie burn
-Ranking exercises based on their MET (Metabolic Equivalent of Task) values
+There is a linear reggression between calories and duration , heart_rate and calories also body temperature and calories. 
+![image](https://github.com/user-attachments/assets/e41706ed-bbe3-4a28-8cfd-eebb3e99f44c)
+![image](https://github.com/user-attachments/assets/ed20832d-84b4-4962-aa46-0457cdba0442)
+![image](https://github.com/user-attachments/assets/55c33582-02f7-440f-9930-4b8fa7b3521f)
 
 
 ## Feature Selection & Data Preprocessing:
@@ -41,11 +42,8 @@ Body Temperature: Higher temperatures might indicate more intense workouts.
 Since I have not covered machine learning in class yet, I plan to first complete the initial data analysis and gain a better understanding of the dataset. 
 Once I learn the necessary machine learning techniques, I will implement them later in the project.
 
-## Linear Regression: A simple predictive model
-Random Forest: A more complex, high-accuracy model
-Model performance will be evaluated using RMSE, MAE, and other error metrics
-
 ## Findings (Expected Outcomes):
+
 
 ## This project aims to answer the following key questions:
 
