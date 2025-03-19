@@ -8,6 +8,8 @@ When I first started working out, I struggled to understand how different exerci
 
 Through this project, I aim to explore a more data-driven and personalized approach to calorie burn estimation. By analyzing factors like workout duration, heart rate, body temperature, and body composition, I want to create a model that can provide more accurate calorie burn predictions. This will not only help me optimize my own workouts but also assist others in making informed decisions about their fitness routines.
 
+By leveraging data analysis, we can move beyond traditional estimations and create a more scientific approach to fitness tracking.
+
 ## Data Source:
 
 1. Kaggle dataset on exercise and calorie burn it includes different parameters like ages, heights, weights, exercise duration, heart rate and body temperature.
@@ -52,7 +54,12 @@ Body Temperature: Higher temperatures might indicate more intense workouts.
 ## Machine Learning Models:
 
 Since I have not covered machine learning in class yet, I plan to first complete the initial data analysis and gain a better understanding of the dataset. 
-Once I learn the necessary machine learning techniques, I will implement them later in the project.
+
+Once I learn the necessary machine learning techniques, I will implement them later in the project. 
+
+Additionally, I plan to develop an interactive web-based tool using Gradio, which will allow users to input their workout details (e.g., duration, heart rate, body temperature) and receive a real-time estimated calorie burn prediction from the trained model.
+
+This will help demonstrate the practical use of machine learning in fitness applications and allow for user feedback to improve the model further.
 
 ## Findings (Expected Outcomes):
 
