@@ -20,13 +20,22 @@ Average calorie burn for different exercise types
 The impact of age, weight, and gender on calorie burn
 Ranking exercises based on their MET (Metabolic Equivalent of Task) values
 
-![image](https://github.com/user-attachments/assets/d2a4bce6-0148-4104-9108-77d0e3344ea0)
 
 ## Feature Selection & Data Preprocessing:
 
-Cleaning missing or inconsistent data
-Selecting meaningful features (weight, age, workout duration, heart rate)
-Normalization and scaling
+Height and Weight: Used to calculate BMI and analyze the body composition. 
+
+Age: Metabolism slows with age, impacting calorie burning. 
+
+Workout Duration: Longer workouts generally burn more calories. 
+
+Heart Rate: Higher heart rate indicates higher exertion levels.
+
+Body Temperature: Higher temperatures might indicate more intense workouts.
+
+![image](https://github.com/user-attachments/assets/3496cbea-644c-47b6-8fcd-2049f52e17ab)
+
+
 ## Machine Learning Models:
 
 Since I have not covered machine learning in class yet, I plan to first complete the initial data analysis and gain a better understanding of the dataset. 
