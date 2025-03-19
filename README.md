@@ -1,4 +1,4 @@
-# Bora-Demirkol-DSA-project
+# Predicting a Calorie Burn and Creating Workout Program
 
 /* Calorie Burn Prediction Based on Exercise Types
 
