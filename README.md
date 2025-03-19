@@ -20,15 +20,15 @@ Based on the initial EDA:
 
 Workout Duration and Calories Burned show a strong positive correlation.
 
-![image](https://github.com/user-attachments/assets/e41706ed-bbe3-4a28-8cfd-eebb3e99f44c)
+![Workout Duration vs Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/009962f8-4831-48b9-95a8-3dbeedac32a3.png)
 
 Heart Rate and Calories Burned also show a significant relationship, suggesting higher heart rate means more calorie burn.
 
-![image](https://github.com/user-attachments/assets/ed20832d-84b4-4962-aa46-0457cdba0442)
+![Heart Rate vs Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/058d8fe3-d0b2-4f13-958b-262eddc407f1.png)
 
 Body Temperature and Calories Burned may have a non-linear relationship, as extreme temperatures might indicate overheating rather than increased calorie burn.
 
-![image](https://github.com/user-attachments/assets/55c33582-02f7-440f-9930-4b8fa7b3521f)
+![Body Temperature vs Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/4b9ddba2-dfbc-4a37-a0f6-576667ae63b1.png)
 
 
 ## Feature Selection & Data Preprocessing:
@@ -47,7 +47,7 @@ Heart Rate: Higher heart rate indicates higher exertion levels.
 
 Body Temperature: Higher temperatures might indicate more intense workouts. 
 
-![image](https://github.com/user-attachments/assets/3496cbea-644c-47b6-8fcd-2049f52e17ab)
+![EDA Histograms](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/679cd53a-38ec-4eb6-a9a4-4f278559db48.png)
 
 
 ## Machine Learning Models:
