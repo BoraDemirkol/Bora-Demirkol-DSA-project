@@ -1,6 +1,5 @@
 # Predicting a Calorie Burn and Creating Workout Program
 
-/* Calorie Burn Prediction Based on Exercise Types
 
 ## Motivation: 
 
