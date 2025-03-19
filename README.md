@@ -2,7 +2,8 @@
 
 /* Calorie Burn Prediction Based on Exercise Types
 
-Motivation:
+## Motivation: 
+
 Accurately estimating calorie expenditure during exercise can help individuals optimize their workout plans and achieve their fitness goals. However, most fitness applications and devices use generalized calorie estimation formulas rather than personalized predictions. This project aims to develop a machine learning-based model that can provide more accurate calorie burn predictions based on different exercise types.
 
 I personally work out four times a week, and when I first started training, I struggled to find the right program for myself. Most workout plans and fitness applications provide generic calorie burn estimations without considering individual factors such as weight, age, gender, or workout intensity. Because of this, I often found myself uncertain about which exercises were the most efficient for my specific goals.
