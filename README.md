@@ -46,7 +46,7 @@ Workout Duration: Longer workouts generally burn more calories.
 
 Heart Rate: Higher heart rate indicates higher exertion levels.
 
-Body Temperature: Higher temperatures might indicate more intense workouts.
+Body Temperature: Higher temperatures might indicate more intense workouts. 
 
 ![image](https://github.com/user-attachments/assets/3496cbea-644c-47b6-8fcd-2049f52e17ab)
 
