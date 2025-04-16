@@ -15,21 +15,67 @@ By leveraging data analysis, we can move beyond traditional estimations and crea
 2. Personal data from the apple watch (apple health)
 
 ## Exploratory Data Analysis (EDA):
+## Exploratory Data Analysis Findings
 
-Based on the initial EDA: 
+Our exploratory data analysis revealed several important patterns in the fitness and calorie burn data:
 
-Workout Duration and Calories Burned show a strong positive correlation.
+### Correlation Analysis
 
-![Workout Duration vs Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/009962f8-4831-48b9-95a8-3dbeedac32a3.png)
+![Correlation Matrix](results/figures/Correlation%20Matrix.png)
 
-Heart Rate and Calories Burned also show a significant relationship, suggesting higher heart rate means more calorie burn.
+The correlation matrix shows that:
+- Duration (0.96), Heart Rate (0.90), and Body Temperature (0.82) have the strongest correlations with calorie burn
+- Weight and Height have minimal direct correlation with calories burned
+- BMI shows moderate correlation with Weight (0.70)
 
-![Heart Rate vs Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/058d8fe3-d0b2-4f13-958b-262eddc407f1.png)
+### Exercise Parameters and Calorie Burn
 
-Body Temperature and Calories Burned may have a non-linear relationship, as extreme temperatures might indicate overheating rather than increased calorie burn.
+![Heart Rate vs Duration](results/figures/Heart%20Rate%20vs%20Duration%20(size%20indicates%20Calories).png)
 
-![Body Temperature vs Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/4b9ddba2-dfbc-4a37-a0f6-576667ae63b1.png)
+This visualization demonstrates the relationship between heart rate, workout duration, and calories burned:
+- Higher heart rates combined with longer durations result in maximum calorie burn
+- Even at lower heart rates, longer durations lead to significant calorie burn
+- The pattern shows a clear positive trend where both factors contribute to increased calorie expenditure
 
+### Variable Relationships with Calories
+
+![Scatter Plots](results/figures/User_ID%20vs%20Calories.png)
+
+Key findings from the scatter plots:
+- Duration shows the strongest linear relationship with calories burned
+- Weight shows a moderate correlation with calorie burn
+- User_ID has no relationship with calories, as expected
+- Age shows a slight positive trend with calorie burn
+
+### Distributions of Key Variables
+
+![Distributions](results/figures/Distribution%20of%20User_ID.png)
+
+The distributions reveal:
+- Age is skewed toward younger participants
+- Height and Weight follow normal distributions
+- Duration shows several peaks, suggesting common workout durations
+- Heart Rate shows a multimodal distribution with peaks around 90 and 100 bpm
+
+### Demographic Analysis
+
+![Calories by Gender](results/figures/Calories%20by%20Gender.png)
+![Calories by Age Group](results/figures/Calories%20by%20Age%20Group.png)
+![Calories by BMI Category](results/figures/Calories%20by%20BMI%20Category.png)
+
+Demographic findings:
+- Gender appears to have minimal impact on calorie burn
+- Older age groups (45+) tend to burn more calories on average
+- Overweight individuals show slightly higher calorie burn compared to normal BMI
+- Limited data for underweight and obese categories affects those comparisons
+
+### Conclusions
+
+1. Workout duration is the most significant predictor of calorie burn
+2. Heart rate and body temperature are also strong predictors
+3. Physical characteristics (height, weight) have limited direct impact on calories burned
+4. Age shows a slight positive relationship with calorie burn
+5. The data suggests that longer workouts at moderate-to-high heart rates are most effective for calorie burning
 
 ## Feature Selection & Data Preprocessing:
 
