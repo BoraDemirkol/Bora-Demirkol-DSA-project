@@ -83,7 +83,7 @@ We tested whether calorie burn efficiency (Calories/Minute) differs by BMI categ
 
 **Result**: Statistically significant difference found (p < 0.05).
 
-![Calories per Minute by BMI Category](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/bmi_vs_calories_per_minute.png)
+![Calories per Minute by BMI Category](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-7.png)
 
 
 ## Feature Selection & Data Preprocessing:
