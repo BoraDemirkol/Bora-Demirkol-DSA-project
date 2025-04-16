@@ -75,6 +75,17 @@ Demographic findings:
 3. Physical characteristics (height, weight) have limited direct impact on calories burned
 4. Age shows a slight positive relationship with calorie burn
 5. The data suggests that longer workouts at moderate-to-high heart rates are most effective for calorie burning
+
+
+## Hypothesis Test Summary
+
+We tested whether calorie burn efficiency (Calories/Minute) differs by BMI category using one-way ANOVA.
+
+**Result**: Statistically significant difference found (p < 0.05).
+
+![Calories per Minute by BMI Category](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/bmi_vs_calories_per_minute.png)
+
+
 ## Feature Selection & Data Preprocessing:
 
 Workout Type (Strength, Cardio, HIIT, etc.): Different types of workouts burn calories differently.
