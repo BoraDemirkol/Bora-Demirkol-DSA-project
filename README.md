@@ -15,13 +15,12 @@ By leveraging data analysis, we can move beyond traditional estimations and crea
 2. Personal data from the apple watch (apple health)
 
 ## Exploratory Data Analysis (EDA):
-## Exploratory Data Analysis Findings
 
 Our exploratory data analysis revealed several important patterns in the fitness and calorie burn data:
 
 ### Correlation Analysis
 
-![Correlation Matrix](results/figures/Correlation%20Matrix.png)
+![Correlation Matrix](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown.png)
 
 The correlation matrix shows that:
 - Duration (0.96), Heart Rate (0.90), and Body Temperature (0.82) have the strongest correlations with calorie burn
@@ -30,7 +29,7 @@ The correlation matrix shows that:
 
 ### Exercise Parameters and Calorie Burn
 
-![Heart Rate vs Duration](results/figures/Heart%20Rate%20vs%20Duration%20(size%20indicates%20Calories).png)
+![Heart Rate vs Duration](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/heart_rate_duration_calories.png)
 
 This visualization demonstrates the relationship between heart rate, workout duration, and calories burned:
 - Higher heart rates combined with longer durations result in maximum calorie burn
@@ -39,7 +38,7 @@ This visualization demonstrates the relationship between heart rate, workout dur
 
 ### Variable Relationships with Calories
 
-![Scatter Plots](results/figures/User_ID%20vs%20Calories.png)
+![Scatter Plots](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/scatter_plots.png)
 
 Key findings from the scatter plots:
 - Duration shows the strongest linear relationship with calories burned
@@ -49,7 +48,7 @@ Key findings from the scatter plots:
 
 ### Distributions of Key Variables
 
-![Distributions](results/figures/Distribution%20of%20User_ID.png)
+![Distributions](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-3.png)
 
 The distributions reveal:
 - Age is skewed toward younger participants
@@ -59,9 +58,9 @@ The distributions reveal:
 
 ### Demographic Analysis
 
-![Calories by Gender](results/figures/Calories%20by%20Gender.png)
-![Calories by Age Group](results/figures/Calories%20by%20Age%20Group.png)
-![Calories by BMI Category](results/figures/Calories%20by%20BMI%20Category.png)
+![Calories by Gender](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-4.png)
+![Calories by Age Group](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-5.png)
+![Calories by BMI Category](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-6.png)
 
 Demographic findings:
 - Gender appears to have minimal impact on calorie burn
@@ -76,7 +75,6 @@ Demographic findings:
 3. Physical characteristics (height, weight) have limited direct impact on calories burned
 4. Age shows a slight positive relationship with calorie burn
 5. The data suggests that longer workouts at moderate-to-high heart rates are most effective for calorie burning
-
 ## Feature Selection & Data Preprocessing:
 
 Workout Type (Strength, Cardio, HIIT, etc.): Different types of workouts burn calories differently.
