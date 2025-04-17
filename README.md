@@ -38,7 +38,7 @@ This visualization demonstrates the relationship between heart rate, workout dur
 
 ### Variable Relationships with Calories
 
-![Scatter Plots](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/scatter_plots.png)
+![Distributions](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-9.png)
 
 Key findings from the scatter plots:
 - Duration shows the strongest linear relationship with calories burned
@@ -47,8 +47,6 @@ Key findings from the scatter plots:
 - Age shows a slight positive trend with calorie burn
 
 ### Distributions of Key Variables
-
-![Distributions](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-3.png)
 
 The distributions reveal:
 - Age is skewed toward younger participants
