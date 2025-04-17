@@ -20,7 +20,7 @@ Our exploratory data analysis revealed several important patterns in the fitness
 
 ### Correlation Analysis
 
-![Correlation Matrix](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown.png)
+![Correlation Matrix](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-8.png)
 
 The correlation matrix shows that:
 - Duration (0.96), Heart Rate (0.90), and Body Temperature (0.82) have the strongest correlations with calorie burn
