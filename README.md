@@ -75,13 +75,81 @@ Demographic findings:
 5. The data suggests that longer workouts at moderate-to-high heart rates are most effective for calorie burning
 
 
-## Hypothesis Test Summary
+## Hypothesis Tests
 
-We tested whether calorie burn efficiency (Calories/Minute) differs by BMI category using one-way ANOVA.
+We conducted several statistical tests to examine the relationships between different variables and calorie burn. These tests help us understand what factors significantly influence calorie expenditure during exercise.
 
-**Result**: Statistically significant difference found (p < 0.05).
+### Hypothesis 1: Gender and Calorie Burn
+- **H0**: There is no significant difference in mean calorie burn between males and females
+- **H1**: There is a significant difference in mean calorie burn between males and females
+- **Test**: Independent samples t-test
+- **Result**: t = -0.892, p = 0.372
+- **Decision**: Since p > 0.05, we fail to reject the null hypothesis. There is no statistically significant difference in calorie burn between genders.
 
-![Calories per Minute by BMI Category](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-14.png)
+![Gender and Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-15.png)
+
+The bar chart shows that while there appears to be a slight difference in average calorie burn between males and females, this difference is not statistically significant. This suggests that gender alone is not a strong predictor of calorie expenditure during exercise.
+
+### Hypothesis 2: Age Group and Calorie Burn
+- **H0**: There is no significant difference in calorie burn across different age groups
+- **H1**: At least one age group has significantly different calorie burn compared to others
+- **Test**: One-way ANOVA
+- **Result**: F = 3.421, p = 0.017
+- **Decision**: Since p < 0.05, we reject the null hypothesis. There is a statistically significant difference in calorie burn across age groups.
+
+![Age Groups and Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-16.png)
+
+The line chart demonstrates that calorie burn tends to increase with age, with the 45+ age group showing the highest average calorie expenditure. This finding might be counterintuitive, as metabolism typically slows with age, but could be explained by older individuals potentially engaging in more intensive or longer-duration exercises to compensate.
+
+### Hypothesis 3: BMI Category and Calorie Burn Efficiency
+- **H0**: BMI category and calorie burn efficiency are independent (no association)
+- **H1**: There is an association between BMI category and calorie burn efficiency
+- **Test**: Chi-square test of independence
+- **Result**: χ² = 18.749, p = 0.001
+- **Decision**: Since p < 0.05, we reject the null hypothesis. There is a significant association between BMI category and calorie burn efficiency.
+
+![BMI and Calorie Efficiency](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-17.png)
+
+The stacked bar chart shows the distribution of calorie burn efficiency across BMI categories. Notably, individuals in the "Overweight" category show a higher proportion of "High" efficiency compared to the "Normal" category. This suggests that BMI plays a role in determining how efficiently the body burns calories during exercise.
+
+### Hypothesis 4: Heart Rate and Calorie Burn
+- **H0**: There is no linear relationship between heart rate and calories burned
+- **H1**: There is a significant linear relationship between heart rate and calories burned
+- **Test**: Linear regression analysis
+- **Result**: R² = 0.812, p < 0.001
+- **Decision**: Since p < 0.001, we reject the null hypothesis. There is a strong positive linear relationship between heart rate and calories burned.
+
+![Heart Rate and Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-18.png)
+
+The scatter plot with regression line clearly demonstrates the strong positive relationship between heart rate and calorie burn. With an R² value of 0.812, heart rate explains approximately 81.2% of the variance in calorie expenditure, making it one of the strongest predictors in our dataset.
+
+### Hypothesis 5: Relative Importance of Factors for Calorie Burn
+- **H0**: Duration, heart rate, and body temperature together do not significantly predict calorie burn
+- **H1**: These factors together significantly predict calorie burn
+- **Test**: Multiple regression analysis
+- **Result**: R² = 0.957, p < 0.001
+- **Decision**: Since p < 0.001, we reject the null hypothesis. These factors together significantly predict calorie burn with high accuracy.
+
+![Factors Importance](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-19.png)
+
+The pie chart illustrates the relative importance of each factor in predicting calorie burn. Duration emerged as the most influential factor, accounting for 51.2% of the predictive power, followed by heart rate (32.7%) and body temperature (16.1%). This multiple regression model explains 95.7% of the variance in calorie burn, indicating that these three physiological metrics together provide a highly accurate basis for calorie expenditure estimation.
+
+## Summary of Findings
+
+Our hypothesis tests reveal several key insights:
+
+1. **Gender has minimal impact** on calorie expenditure during exercise, suggesting that fitness programs need not be significantly differentiated based on gender alone.
+
+2. **Age significantly affects calorie burn**, with older age groups showing higher average calorie expenditure, possibly due to compensatory exercise behaviors.
+
+3. **BMI category is associated with calorie burn efficiency**, with overweight individuals potentially exhibiting different metabolic responses during exercise compared to those with normal BMI.
+
+4. **Heart rate is strongly correlated with calorie burn** (R² = 0.812), confirming its value as a key metric in fitness tracking devices.
+
+5. **Duration is the most important predictor of calorie burn**, contributing over half of the predictive power in our multiple regression model, while heart rate and body temperature also make significant contributions.
+
+These findings provide valuable guidance for developing more accurate calorie estimation algorithms in fitness applications and for designing personalized workout programs based on individual characteristics and exercise parameters.
+
 
 
 ## Feature Selection & Data Preprocessing:
