@@ -56,9 +56,9 @@ The distributions reveal:
 
 ### Demographic Analysis
 
-![Calories by Gender](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-4.png)
-![Calories by Age Group](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-5.png)
-![Calories by BMI Category](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-6.png)
+![Calories by Gender](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-12.png)
+![Calories by Age Group](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-13.png)
+![Calories by BMI Category](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-11.png)
 
 Demographic findings:
 - Gender appears to have minimal impact on calorie burn
@@ -81,7 +81,7 @@ We tested whether calorie burn efficiency (Calories/Minute) differs by BMI categ
 
 **Result**: Statistically significant difference found (p < 0.05).
 
-![Calories per Minute by BMI Category](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-7.png)
+![Calories per Minute by BMI Category](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-14.png)
 
 
 ## Feature Selection & Data Preprocessing:
