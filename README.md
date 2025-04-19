@@ -43,7 +43,6 @@ This visualization demonstrates the relationship between heart rate, workout dur
 Key findings from the scatter plots:
 - Duration shows the strongest linear relationship with calories burned
 - Weight shows a moderate correlation with calorie burn
-- User_ID has no relationship with calories, as expected
 - Age shows a slight positive trend with calorie burn
 
 ### Distributions of Key Variables
