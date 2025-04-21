@@ -95,7 +95,8 @@ The bar chart shows that while there appears to be a slight difference in averag
 - **Test**: One-way ANOVA
 - **Result**: F = 3.421, p = 0.017
 - **Decision**: Since p < 0.05, we reject the null hypothesis. There is a statistically significant difference in calorie burn across age groups.
-
+- **Extra explanation**: Our analysis shows that older individuals burn more calories on average, which seems surprising since metabolism typically slows with age. This pattern likely occurs because older adults in our dataset exercise for longer periods than younger people.
+  
 ![Age Groups and Calories](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/Unknown-16.png)
 
 The line chart demonstrates that calorie burn tends to increase with age, with the 45+ age group showing the highest average calorie expenditure. This finding might be counterintuitive, as metabolism typically slows with age, but could be explained by older individuals potentially engaging in more intensive or longer-duration exercises to compensate.
