@@ -218,10 +218,10 @@ Since the original dataset lacked calorie measurements, we created a realistic c
 ### Machine Learning Results
 
 **1. Model Performance Rankings:**
-- **Winner:** Random Forest (92.4% accuracy) - Best balance of accuracy and stability
-- **Runner-up:** Gradient Boosting (92.1% accuracy) - Close second with good performance
-- **Surprise:** Neural Network (88.9% accuracy) - Good but required more data for optimal performance
-- **Baseline:** Linear Regression (81.2% accuracy) - Solid foundation but limited by linear assumptions
+- **First:** Random Forest (92.4% accuracy) - Best balance of accuracy and stability
+- **Second:** Gradient Boosting (92.1% accuracy) - Close second with good performance
+- **Third:** Neural Network (88.9% accuracy) - Good but required more data for optimal performance
+- **Forth:** Linear Regression (81.2% accuracy) - Solid foundation but limited by linear assumptions
 
 **2. Feature Importance Analysis (Random Forest):**
 - **Duration: 31.2%** - Most critical factor for calorie prediction
