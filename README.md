@@ -211,9 +211,10 @@ Since the original dataset lacked calorie measurements, we created a realistic c
 - **Prediction Error:** ±25.8 calories average
 - **Stability:** Low overfitting (CV ≈ Test scores)
 
-## Findings (Expected Outcomes):
+## Findings:
 
-(https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/ML.png)
+![Feature Importance](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/ML.png)
+
 
 ### Machine Learning Results
 
