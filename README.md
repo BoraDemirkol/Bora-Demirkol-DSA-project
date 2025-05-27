@@ -213,8 +213,6 @@ Since the original dataset lacked calorie measurements, we created a realistic c
 
 ## Findings (Expected Outcomes):
 
-## Key Findings
-
 ### Machine Learning Results
 
 **1. Model Performance Rankings:**
