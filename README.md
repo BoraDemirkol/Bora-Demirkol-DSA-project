@@ -213,7 +213,7 @@ Since the original dataset lacked calorie measurements, we created a realistic c
 
 ## Findings (Expected Outcomes):
 
-[Findings](https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/ML.png)
+(https://raw.githubusercontent.com/BoraDemirkol/Bora-Demirkol-DSA-project/main/results/figures/ML.png)
 
 ### Machine Learning Results
 
